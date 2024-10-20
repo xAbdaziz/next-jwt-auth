@@ -130,7 +130,6 @@ export class JWTAuthController {
       ? getPropByKeyPath(response, this.config.accessToken.expireTimeProperty)
       : null
 
-    const isRefreshTokenConfigAvailable = this.config.refreshToken !== undefined
     let refreshToken: string | null = null
     let refreshTokenExpiresAt: string | null = null
     if (this.config.refreshToken !== undefined) {
@@ -140,7 +139,7 @@ export class JWTAuthController {
         : null
     }
 
-    if (!accessToken || (isRefreshTokenConfigAvailable && !refreshToken)) {
+    if (!accessToken) {
       throw new Error('Token not found in response')
     }
 
