@@ -1,6 +1,6 @@
 {
   "name": "next-jwt-auth",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -23,11 +23,11 @@
     "auth",
     "typescript"
   ],
-  "author": "Shakil Ahmed (shakilbuet63@gmail.com)",
+  "author": "Shakil Ahmed (shakilbuet63@gmail.com) + xAbdaziz",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/palatok/next-jwt-auth.git"
+    "url": "git+https://github.com/xAbdaziz/next-jwt-auth.git"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.6",
