@@ -1,6 +1,6 @@
 {
   "name": "next-jwt-auth",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -39,11 +39,11 @@
   "dependencies": {
     "js-cookie": "^3.0.5",
     "axios": "^1.6.8",
-    "next": "^14.1.4"
+    "next": "^15"
   },
   "peerDependencies": {
     "axios": "^1.6.8",
-    "next": "^14.1.4",
-    "react": ">=16"
+    "next": "^15",
+    "react": ">=18"
   }
 }
